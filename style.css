@@ -30,3 +30,18 @@ section{
     padding: 10px 15px;
     border-radius: 5px;
 }
+.dream-width{
+    width: 50%;
+    padding: 5%;
+}
+.dream-width img{
+    width: 100%;
+}
+.link-here{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: whitesmoke;
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
