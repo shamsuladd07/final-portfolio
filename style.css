@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 span{
@@ -14,6 +15,12 @@ h2{
 }
 section{
     display: flex;
+    height: 400px;
+    padding-bottom: 100px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 .half-width{
     width: 50%;
@@ -29,6 +36,11 @@ section{
     font-weight: 700;
     padding: 10px 15px;
     border-radius: 5px;
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .dream-width{
     width: 50%;
