@@ -1,0 +1,32 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+span{
+    color: orangered;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}h3{
+    font-size: 20px;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+}
+.half-width img{
+    width: 90%;
+}
+.link-here{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: whitesmoke;
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
