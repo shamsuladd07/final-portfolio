@@ -13,7 +13,7 @@ h2{
 }h3{
     font-size: 20px;
 }
-section{
+.flexible-container{
     display: flex;
     height: 400px;
     padding-bottom: 100px;
@@ -56,4 +56,34 @@ section{
     font-weight: 700;
     padding: 10px 15px;
     border-radius: 5px;
+}
+#exp{
+    margin: 1.2em;
+}
+.experiance-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.experiance-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 100px;
+    padding-left: 20px;
+    border-radius: 3%;
+    box-shadow: 10px 10px 40px gray;
+}
+#full-stack-developer{
+    border-left: 5px solid;
+    border-image: linear-gradient(orangered, tomato);
+    border-image-slice: 1;
+}
+#baby-developer{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
